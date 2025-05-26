@@ -13,8 +13,8 @@ The chemical engineering virtual lab simulates real processes, letting students 
 <b>Name of Developer | <b> Dr. Ravish Sir 
 :--|:--|
 <b> Institute | <b>  Rajkiya Engineering College Kannauj
-<b> Email id|     <b>  
-<b> Department |  Applied Science
+<b> Email id|     <b> ravishrajput@reck.ac.in
+<b> Department |  Department of Applied Sciences and Humanities
 
 ### Contributors List
 
