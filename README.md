@@ -20,5 +20,7 @@ Fill a brief description of this experiment here
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Ayush Kumar | Student | CSE | Rajkiya Engineering College Kannauj | ayush95190@gmail.com
+2 | Pragati | Student | CSE | Rajkiya Engineering College Kannauj | .
+3 | Shriyanshi | Student | CSE | Rajkiya Engineering College Kannauj | 
+1 | Raghuvendra Singh | Student | EL | Rajkiya Engineering College Kannauj |
