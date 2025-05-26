@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-The chemical engineering virtual lab simulates real processes, letting students explore and analyze experiments safely without physical setups.
+The aim of the Le Chatelier Reactor experiment is to study how changes in temperature, pressure, or concentration affect chemical equilibrium. It helps visualize Le Chatelier’s principle and predict system responses to external stresses.
 
 <b>Name of Developer | <b> Dr. Ravish 
 :--|:--|
