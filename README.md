@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+The chemical engineering virtual lab simulates real processes, letting students explore and analyze experiments safely without physical setups.
 
 <b>Name of Developer | <b> Dr. Ravish Sir 
 :--|:--|
