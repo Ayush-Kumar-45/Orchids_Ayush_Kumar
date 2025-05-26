@@ -1,7 +1,7 @@
 ## Introduction
 
 
-<b>Discipline | <b> Chemistry 
+<b>Discipline | <b> Chemical Engineering
 :--|:--|
 <b> Lab | <b> Chemistry Lab
 <b> Experiment|     <b> Le Chatlier's Reactor
