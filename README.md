@@ -4,11 +4,11 @@
 <b>Discipline | <b> Chemical Engineering
 :--|:--|
 <b> Lab | <b> Chemistry Lab
-<b> Experiment|     <b> Nanomaterial Size vs Property Plotter
+<b> Experiment|     <b> Le Chatlier's Reactor
 
 ### About the Experiment 
 
-Nanomaterial Size vs Property Plotter is a tool that visualizes how key material properties (like optical, electrical, or mechanical behavior) change with nanoparticle size, helping researchers analyze nanoscale effects easily.
+The aim of the Le Chatelier Reactor experiment is to study how changes in temperature, pressure, or concentration affect chemical equilibrium. It helps visualize Le Chatelier’s principle and predict system responses to external stresses.
 
 <b>Name of Developer | <b> Dr. Ravish Singh 
 :--|:--|
