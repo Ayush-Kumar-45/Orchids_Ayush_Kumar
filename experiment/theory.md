@@ -15,7 +15,7 @@ In this virtual experiment, we use a simulated Le Chatelier Reactor to demonstra
 
 ### Key Concepts:
 
-1. Effect of Concentration:
+### 1. Effect of Concentration:
 
 Adding more reactants shifts the equilibrium toward the product side to reduce the added substance.
 
@@ -27,7 +27,7 @@ Increasing SCN⁻ concentration results in a deeper red color, indicating more F
 
 
 
-2. Effect of Temperature:
+### 2. Effect of Temperature:
 
 For exothermic reactions (which release heat), increasing temperature shifts the equilibrium backward (toward reactants).
 
@@ -35,7 +35,7 @@ For endothermic reactions (which absorb heat), raising the temperature shifts th
 
 
 
-3. Effect of Pressure (only for gases):
+### 3. Effect of Pressure (only for gases):
 
 Increasing pressure causes the equilibrium to shift toward the side with fewer gas molecules.
 
