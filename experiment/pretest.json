@@ -1,39 +1,90 @@
-{
+ {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What does Le Chatelier’s Principle state?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Reactions always move to completion",
+        "b": "Systems at equilibrium remain unaffected by external changes",
+        "c": "A system at equilibrium adjusts to oppose any change imposed on it",
+        "d": "Reactants always dominate at equilibrium"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Reactions do not always go to completion.",
+        "b": "Incorrect. Equilibrium systems are affected by external changes.",
+        "c": "Correct. According to Le Chatelier’s Principle, the system adjusts to oppose the change.",
+        "d": "Incorrect. Product and reactant ratios depend on the reaction's equilibrium constant."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If temperature is increased in an exothermic reaction at equilibrium, the system will:",
+      "answers": {
+        "a": "Shift to the right (towards products)",
+        "b": "Shift to the left (towards reactants)",
+        "c": "Remain unchanged",
+        "d": "Increase the rate of forward reaction permanently"
+      },
+      "explanations": {
+        "a": "Incorrect. Increasing temperature shifts equilibrium in the direction that absorbs heat (endothermic).",
+        "b": "Correct. For an exothermic reaction, increasing temperature favors the reverse (endothermic) reaction.",
+        "c": "Incorrect. The equilibrium position changes with temperature.",
+        "d": "Incorrect. Rate may temporarily change, but equilibrium determines long-term composition."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following changes will shift the equilibrium to the product side?",
+      "answers": {
+        "a": "Removing reactants",
+        "b": "Adding more products",
+        "c": "Adding more reactants",
+        "d": "Decreasing pressure in a gaseous system with fewer moles on the product side"
+      },
+      "explanations": {
+        "a": "Incorrect. Removing reactants shifts equilibrium to the left.",
+        "b": "Incorrect. Adding products shifts equilibrium to the left.",
+        "c": "Correct. Adding reactants drives the reaction toward products.",
+        "d": "Incorrect. Decreasing pressure favors the side with more gas molecules."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a gaseous reaction where the product side has fewer moles of gas, increasing pressure will:",
+      "answers": {
+        "a": "Shift equilibrium to the product side",
+        "b": "Shift equilibrium to the reactant side",
+        "c": "Have no effect on equilibrium",
+        "d": "Stop the reaction"
+      },
+      "explanations": {
+        "a": "Correct. Increased pressure favors the side with fewer gas molecules.",
+        "b": "Incorrect. More pressure shifts equilibrium toward fewer moles.",
+        "c": "Incorrect. Gaseous equilibrium is pressure-sensitive.",
+        "d": "Incorrect. Pressure changes shift equilibrium but don’t halt reactions."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following will not affect the position of equilibrium in a closed system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Change in concentration of reactants",
+        "b": "Change in pressure for gaseous reactions",
+        "c": "Addition of a catalyst",
+        "d": "Change in temperature"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Changing concentration alters equilibrium.",
+        "b": "Incorrect. Pressure changes affect gaseous equilibria.",
+        "c": "Correct. A catalyst speeds up both forward and reverse reactions equally, so equilibrium position is unchanged.",
+        "d": "Incorrect. Temperature changes affect the equilibrium constant."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
-    }
-  ]
+    }
+  ]
 }
