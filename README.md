@@ -4,7 +4,7 @@
 <b>Discipline | <b> Chemical Engineering
 :--|:--|
 <b> Lab | <b> Chemistry Lab
-<b> Experiment|     <b> Nanomaterial Size vs Property Plotter
+<b> Experiment|     <b> Le Chatlier's Reactor
 
 ### About the Experiment 
 
