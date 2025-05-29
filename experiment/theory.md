@@ -4,14 +4,14 @@ In many chemical reactions, a state of dynamic equilibrium is reached, where the
 Le Chatelier’s Principle explains how an equilibrium system responds when it is subjected to external changes.
 ### According to the principle:
 
-> “When a system at equilibrium experiences a change in concentration, temperature, or pressure, it adjusts itself in a way that counteracts that change and re-establishes equilibrium.”
+ “When a system at equilibrium experiences a change in concentration, temperature, or pressure, it adjusts itself in a way that counteracts that change and re-establishes equilibrium.”
 
 
 
 In this virtual experiment, we use a simulated Le Chatelier Reactor to demonstrate how equilibrium shifts in response to various changes. The model helps us visualize how chemical systems adapt to maintain balance when disturbed.
 
 
----
+
 
 ### Key Concepts:
 
