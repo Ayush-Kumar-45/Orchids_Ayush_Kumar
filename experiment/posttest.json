@@ -1,39 +1,90 @@
-{
+ {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "For the reaction N2(g) + 3H2(g) ⇌ 2NH3(g) + heat, what effect will increasing the temperature have on the equilibrium?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Shift to the left (reactants)",
+        "b": "Shift to the right (products)",
+        "c": "No shift",
+        "d": "Shift to the right, then to the left"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. Increasing the temperature favors the endothermic direction, which is the reverse (reactant) direction in this exothermic reaction.",
+        "b": "Incorrect. This would happen if the reaction were endothermic.",
+        "c": "Incorrect. Changes in temperature do affect equilibrium.",
+        "d": "Incorrect. The reaction does not shift back and forth immediately in this way."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "For the reaction 2SO2(g) + O2(g) ⇌ 2SO3(g), which of the following will increase the yield of SO3?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Decreasing the pressure",
+        "b": "Adding more O2",
+        "c": "Adding more SO3",
+        "d": "Increasing the temperature"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Decreasing pressure shifts equilibrium toward more gas molecules (reactants).",
+        "b": "Correct. Increasing the concentration of a reactant (O2) will shift the equilibrium towards the product (SO3).",
+        "c": "Incorrect. Adding product shifts equilibrium to the left.",
+        "d": "Incorrect. Increasing temperature may not favor product formation if the reaction is exothermic."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "You increased the concentration of reactant A, and the simulation showed a sharp shift toward product formation. If you immediately double the concentration of product B, what would most likely happen next?",
+      "answers": {
+        "a": "Reaction shifts further to the right",
+        "b": "Reaction shifts to the left to counter the excess B",
+        "c": "No change occurs",
+        "d": "The reaction becomes irreversible"
+      },
+      "explanations": {
+        "a": "Incorrect. Increasing product concentration does not push the reaction further forward.",
+        "b": "Correct. The system will shift left to oppose the increase in product B.",
+        "c": "Incorrect. The system responds to changes even if equilibrium was previously reached.",
+        "d": "Incorrect. Equilibrium reactions remain reversible under standard conditions."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the simulation, when you removed some product but did not add any reactants, the reaction still shifted toward the products. Why?",
+      "answers": {
+        "a": "The system tries to restore balance by forming more product",
+        "b": "Removing product increases the pressure",
+        "c": "Reactants are unstable and must convert",
+        "d": "Heat is absorbed spontaneously"
+      },
+      "explanations": {
+        "a": "Correct. Removing product causes the equilibrium to shift right to restore lost products.",
+        "b": "Incorrect. Pressure only changes when gas volume or quantity changes.",
+        "c": "Incorrect. This is not necessarily true for all reactions.",
+        "d": "Incorrect. Heat behavior depends on reaction type, not product removal."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A catalyst is added to a reactor where equilibrium has already been established. What is its effect?",
+      "answers": {
+        "a": "It increases the yield of the products",
+        "b": "It has no effect since equilibrium is already reached",
+        "c": "It helps re-establish equilibrium more quickly if disturbed",
+        "d": "It lowers the temperature of the system"
+      },
+      "explanations": {
+        "a": "Incorrect. Catalysts do not affect equilibrium yield.",
+        "b": "Incorrect. It doesn’t affect the position but aids reestablishment if disturbed.",
+        "c": "Correct. A catalyst speeds up both the forward and reverse reactions, helping to re-establish equilibrium faster.",
+        "d": "Incorrect. Catalysts don’t influence temperature."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
-    }
-  ]
+    }
+  ]
 }
