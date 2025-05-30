@@ -48,4 +48,7 @@ Decreasing pressure shifts it toward the side with more gas molecules.
 
 Example:
 
-Applying high pressure favors the production of ammonia, as fewer gas molecules are formed.
+Applying high pressure favors the production of ammonia, as fewer gas molecules are formed.<br>
+
+<img src="https://raw.githubusercontent.com/Ayush-Kumar-45/Orchids_Ayush_Kumar_1/main/experiment/images/lechtelier%20theory.jpg" alt="Le Chatelier Theory Diagram" width="500"/>
+
