@@ -1,5 +1,5 @@
 ****LE CHATELIER'S REACTOR****<br>
-****PROCEDURE****<br>
+****Procedure:****<br>
 ****Step 1:-**** Choose the Reaction parameters.<br>
 ****Step 2:-**** Choose Reactor controls.<br>
 ****Step 3:-**** Set the Reactor controls according to your preference i.e.<br>
