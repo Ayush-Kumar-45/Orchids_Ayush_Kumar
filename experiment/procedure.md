@@ -2,7 +2,7 @@
 _****Procedure:****<br>_
 ****Step 1:-**** Choose the Reaction parameters.<br>
 ****Step 2:-**** Choose Reactor controls.<br>
-****Step 3:-**** Set the Reactor controls according to your preference i.e.<br>
+****Step 3:-**** Adjust the Reactor controls according to your preference i.e.<br>
     ->Temperature<br>
     ->Pressure<br>
     ->Reactant<br>
