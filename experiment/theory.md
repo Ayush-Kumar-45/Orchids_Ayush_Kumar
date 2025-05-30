@@ -27,7 +27,7 @@ Increasing SCN⁻ concentration results in a deeper red color, indicating more F
 
 
 
-### 2. Effect of Temperature:
+##2. Effect of Temperature:
 
 For exothermic reactions (which release heat), increasing temperature shifts the equilibrium backward (toward reactants).
 
