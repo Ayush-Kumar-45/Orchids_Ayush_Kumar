@@ -13,7 +13,7 @@ In this virtual experiment, we use a simulated Le Chatelier Reactor to demonstra
 
 
 
-### Key Concepts:
+###  External Changes:
 
 ### 1. Effect of Concentration:
 
