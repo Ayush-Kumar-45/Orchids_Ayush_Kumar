@@ -24,6 +24,7 @@ Removing products also drives the reaction forward to replace the removed compon
 Example:
 
 Increasing SCN⁻ concentration results in a deeper red color, indicating more FeSCN²⁺ is formed.
+https://miro.medium.com/v2/resize:fit:554/0*2rpenKemSrxZlQ-c.png
 
 
 
