@@ -1,4 +1,4 @@
-### Theory
+### LE CHATELIER'S REACTOR
 In many chemical reactions, a state of dynamic equilibrium is reached, where the rates of the forward and reverse reactions become equal. At this point, the concentrations of reactants and products remain constant over time.
 
 Le Chatelier’s Principle explains how an equilibrium system responds when it is subjected to external changes.
