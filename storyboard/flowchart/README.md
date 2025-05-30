@@ -1,1 +1,1 @@
-### This directory contains flowchart used in [storyboard document](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/storyboard/README.org).
+ <img src="https://raw.githubusercontent.com/Ayush-Kumar-45/Orchids_Ayush_Kumar_1/main/experiment/images/lechtelier.png" alt="Le Chatelier's Principle" width="600"/>
