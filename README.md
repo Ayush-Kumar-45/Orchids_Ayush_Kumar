@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-Nanomaterial Size vs Property Plotter is a tool that visualizes how key material properties (like optical, electrical, or mechanical behavior) change with nanoparticle size, helping researchers analyze nanoscale effects easily.
+Le Chatelier’s Reactor Virtual Lab offers an interactive platform to explore chemical equilibrium and visualize reaction shifts. 
 
 <b>Name of Developer | <b> Dr. Ravish Singh 
 :--|:--|
