@@ -8,5 +8,5 @@ _****Procedure:****<br>_
     ->Reactant<br>
     ->Concentration<br>
 ****Step 4:-**** As per your changes the result of simulation will show in reactor as well as in system status.<br>
-****Step 5:-**** Click on .<br>
+****Step 5:-**** Click on record observation button.<br>
 ****Step 5:-**** Then click on the "Reset to Equilibrium" for further simulation.<br>
