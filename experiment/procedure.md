@@ -7,5 +7,6 @@ _****Procedure:****<br>_
     ->Pressure<br>
     ->Reactant<br>
     ->Concentration<br>
-****Step 4:-**** As per your changes you will see the simulation.<br>
+****Step 4:-**** As per your changes the result of simulation will show in reactor.<br>
+****Step 5:-**** As per your changes the result of simulation will show in reactor.<br>
 ****Step 5:-**** Then click on the "Reset to Equilibrium" for further simulation.<br>
