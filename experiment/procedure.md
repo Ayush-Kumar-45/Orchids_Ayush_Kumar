@@ -1,4 +1,4 @@
-****LE CHATELIER'S REACTOR****
+****LE CHATELIER'S REACTOR****<br>
 ****PROCEDURE****<br>
 ****Step 1:-**** Choose the Reaction parameters.<br>
 ****Step 2:-**** Choose Reactor controls.<br>
