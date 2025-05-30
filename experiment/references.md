@@ -5,4 +5,5 @@
 
 ****BOOKS:-****<br>
 [1] ****NCERT****.(2021).Chemistry Part(I)-Class (XI) (Chapter 7:Equlibrium).National Council of Educational Research and Training
+[2] ****MODERN ABC****.(2020).Chemistry Part(I)-Class (XI) (Chapter 7:Equilibrium).
 
