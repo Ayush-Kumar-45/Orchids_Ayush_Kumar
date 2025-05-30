@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-Le Chatelier’s Reactor Virtual Lab offers an interactive platform to explore chemical equilibrium and visualize reaction shifts.Designed to bridge theory and practice, 
+Le Chatelier’s Reactor Virtual Lab offers an interactive platform to explore chemical equilibrium and visualize reaction shifts.Designed to bridge theory and practice, the lab makes learning dynamic and engaging.
 
 <b>Name of Developer | <b> Dr. Ravish Singh 
 :--|:--|
