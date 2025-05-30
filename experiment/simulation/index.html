@@ -3,106 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Chatelier's Reactor Simulator - Virtual Lab</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <title>Le Chatelier's Principle Simulator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+
 </head>
 <body>
-    <div class="header">
-        <h1>Le Chatelier's Reactor Simulator</h1>
-        <p>Interactive Virtual Lab for Chemical Equilibrium Principles</p>
-    </div>
+    <header>
+        <h1>Le Chatelier's Principle Simulator</h1>
+    </header>
 
-    <div class="container">
-        <div class="control-panel">
+    <main>
+        <div class="panel controls-panel">
+            <h2>Reaction Controls</h2>
             <div class="control-group">
-                <h3>Reaction Parameters</h3>
+                <label for="reactionType">Reaction Type:</label>
                 <select id="reactionType">
-                    <option value="exothermic">Exothermic Reaction (A + B ⇌ C + Heat)</option>
-                    <option value="endothermic">Endothermic Reaction (A + B + Heat ⇌ C)</option>
-                    <option value="gas">Gas Phase Reaction (2A(g) ⇌ B(g))</option>
-                    <option value="dissolution">Dissolution Equilibrium (Solid ⇌ Aqueous)</option>
+                    <option value="exothermic">Exothermic: A + B ⇌ C + Heat</option>
+                    <option value="endothermic">Endothermic: A + B + Heat ⇌ C</option>
+                    <option value="gas">Gas Phase: 2A(g) ⇌ B(g)</option>
+                    <option value="dissolution">Dissolution: Solid &harr; Aqueous Ions</option>
                 </select>
             </div>
 
+            <div class="reaction-equation" id="reactionEquation">
+                A(aq) + B(aq) &harr; C(aq) + <b>Heat</b>
+            </div>
+
             <div class="control-group">
-                <h3>Reactor Controls</h3>
-                <div class="slider-container">
-                    <label for="temperature">Temperature (°C)</label>
-                    <input type="range" id="temperature" min="0" max="200" value="25" step="1">
-                    <div class="value-display">
-                        <span>0°C</span>
-                        <span id="tempValue">25°C</span>
-                        <span>200°C</span>
-                    </div>
-                </div>
+                <label for="temperature">Temperature: <span id="tempValue">25°C</span></label>
+                <input type="range" id="temperature" min="0" max="200" value="25" step="1">
+            </div>
 
-                <div class="slider-container">
-                    <label for="pressure">Pressure (atm)</label>
-                    <input type="range" id="pressure" min="0.1" max="10" value="1" step="0.1">
-                    <div class="value-display">
-                        <span>0.1 atm</span>
-                        <span id="pressureValue">1 atm</span>
-                        <span>10 atm</span>
-                    </div>
-                </div>
+            <div class="control-group">
+                <label for="pressure">Pressure: <span id="pressureValue">1 atm</span></label>
+                <input type="range" id="pressure" min="0.1" max="10" value="1" step="0.1">
+            </div>
 
-                <div class="slider-container">
-                    <label for="reactantConcentration">Reactant Concentration</label>
-                    <input type="range" id="reactantConcentration" min="0" max="100" value="50" step="1">
-                    <div class="value-display">
-                        <span>0%</span>
-                        <span id="reactantValue">50%</span>
-                        <span>100%</span>
-                    </div>
-                </div>
+            <div class="control-group">
+                <label for="reactantConcentration">Reactant Conc.: <span id="reactantValue">50%</span></label>
+                <input type="range" id="reactantConcentration" min="0" max="100" value="50" step="1">
+            </div>
 
-                <div class="slider-container">
-                    <label for="productConcentration">Product Concentration</label>
-                    <input type="range" id="productConcentration" min="0" max="100" value="50" step="1">
-                    <div class="value-display">
-                        <span>0%</span>
-                        <span id="productValue">50%</span>
-                        <span>100%</span>
-                    </div>
-                </div>
+            <div class="control-group">
+                <label for="productConcentration">Product Conc.: <span id="productValue">50%</span></label>
+                <input type="range" id="productConcentration" min="0" max="100" value="50" step="1">
+            </div>
 
+            <div class="button-group">
                 <button id="resetBtn">Reset to Equilibrium</button>
+                <button id="recordBtn">Record Observation</button>
             </div>
         </div>
 
-        <div class="visualization">
-            <div class="loading">
-                <div class="spinner"></div>
-            </div>
+        <div class="panel viz-container">
+            <h2>Reaction Visualization</h2>
             <div id="reactor-viz"></div>
         </div>
 
-        <div class="info-panel">
-            <h2>Le Chatelier's Principle</h2>
-            <p>When a system at equilibrium is subjected to change in concentration, temperature, volume, or pressure, 
-               the system adjusts itself to counteract the effect of the applied change and a new equilibrium is established.</p>
-            
-            <div class="reaction-equation" id="reactionEquation">
-                2A(g) + B(g) ⇌ C(g) + Heat
-            </div>
-
-            <div class="equilibrium-status">
-                <h4>System Status</h4>
-                <div class="status-indicator">
-                    <div class="status-light" id="statusLight"></div>
-                    <div class="status-text" id="statusText">System at Equilibrium</div>
+        <div class="panel status-panel">
+            <h2>System Status</h2>
+            <div class="status-content">
+                <div class="status-item">
+                    <div id="statusLight" class="status-light equilibrium"></div>
+                    <strong id="statusText">System at Equilibrium</strong>
                 </div>
-                <p id="equilibriumExplanation">The concentrations of reactants and products are stable. No net shift occurring.</p>
+                <div class="shift-indicator">
+                    Equilibrium Shift: <span id="shiftAmount">0</span>%
+                </div>
+                <div class="shift-bar-container">
+                    <div id="shiftBar" class="shift-bar"></div>
+                </div>
+                <div class="explanation" id="equilibriumExplanation">
+                    The net rate of forward and reverse reactions are equal. No net shift occurring.
+                </div>
+                <div class="factors-influencing-shift" id="factorsInfluencingShift">
+                    <strong>Factors Influencing Shift:</strong> None
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Three.js and related libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/DRACOLoader.js"></script>
+        <div class="panel observations-panel">
+            <h2>Observation Log</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Temp (°C)</th>
+                        <th>Pressure (atm)</th>
+                        <th>Reactants (%)</th>
+                        <th>Products (%)</th>
+                        <th>Shift</th>
+                    </tr>
+                </thead>
+                <tbody id="observationTableBody">
+                    </tbody>
+            </table>
+            <div class="button-group">
+                <button id="clearBtn">Clear Observations</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Le Chatelier's Principle Simulator. Educational Tool.</p>
+    </footer>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="./js/main.js"></script>
     
-    <script src="./js/main.js"></script>
 </body>
 </html>
