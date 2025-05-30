@@ -2,6 +2,7 @@
 In many chemical reactions, a state of dynamic equilibrium is reached, where the rates of the forward and reverse reactions become equal. At this point, the concentrations of reactants and products remain constant over time.
 
 Le Chatelier’s Principle explains how an equilibrium system responds when it is subjected to external changes.<br>
+
 <img src="https://raw.githubusercontent.com/Ayush-Kumar-45/Orchids_Ayush_Kumar_1/main/experiment/images/le%20chatelier%20image%202.png" alt="Le Chatelier Reactor Diagram" width="500"/>
 <br>
 
