@@ -1,6 +1,6 @@
 EMPTY
 <!-- Remove all lines above this line before making changes to the file -->
-### Subject Matter Experts
+### Chemistry
 | SNo. | Name | Email | Institute | ID |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | Dr. Ravish Singh | ravishrajput@reck.ac.in | Rajkiya Engineering College Kannauj | id |
