@@ -1,0 +1,45 @@
+{
+
+   "details": [
+       {
+			"Experiment": "Le Chatlier's Reactor",     
+			"Lab": "Chemistry Lab",               
+			"Discipline": "Chemical Engineering",				 
+			"Technology": "HTML CSS Javascript"         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "Dr. Ravish Singh",         
+      "Institute": "REC Kannauj",         
+      "InstituteAcronym": "RECK"   
+       }
+   ],
+
+   "contributer": [
+       {       
+			"Contributer": "Ayush Kumar",             
+      "Institute": "REC Kannauj",               
+			"InstituteAcronym": "RECK"         
+       },
+
+       {       
+			"Contributer": "Pragati",              
+      "Institute": "REC Kannauj",               
+			"InstituteAcronym": "RECK"         
+       },
+
+       {       
+			"Contributer": "Shriyanshi",             
+      "Institute": "REC Kannauj",               
+			"InstituteAcronym": "RECK"         
+       },
+       {       
+			"Contributer": "Raghuvendra Singh",              
+      "Institute": "REC Kannauj",               
+			"InstituteAcronym": "RECK"         
+       }
+   ]
+
+}
