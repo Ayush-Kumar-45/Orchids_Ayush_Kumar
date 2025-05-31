@@ -6,7 +6,7 @@ Le Chatelier’s Principle explains how an equilibrium system responds when it i
 <img src="https://raw.githubusercontent.com/Ayush-Kumar-45/Orchids_Ayush_Kumar_1/main/experiment/images/le%20chatelier%20image%202.png" alt="Le Chatelier Reactor Diagram" width="500"/>
 <br>
 
- ****According to the principle****:-
+ ****~According to the principle****:-
 
  “When a system at equilibrium experiences a change in concentration, temperature, or pressure, it adjusts itself in a way that counteracts that change and re-establishes equilibrium.”
 
