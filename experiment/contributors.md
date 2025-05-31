@@ -3,7 +3,7 @@ EMPTY
 ### Chemistry
 | SNo. | Name | Email | Institute | ID |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | Dr. Ravish Singh | ravishrajput@reck.ac.in | Rajkiya Engineering College Kannauj | id |
+| 1 | Dr. Ravish Singh Rajput | ravishrajput@reck.ac.in | Rajkiya Engineering College Kannauj | id |
 
 ### Developers
 | SNo. | Name | Email | Institute | ID |
