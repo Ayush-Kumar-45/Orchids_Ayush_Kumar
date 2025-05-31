@@ -13,6 +13,7 @@ Le Chatelier’s Principle explains how an equilibrium system responds when it i
 
 
 In this virtual experiment, we use a simulated Le Chatelier Reactor to demonstrate how equilibrium shifts in response to various changes. The model helps us visualize how chemical systems adapt to maintain balance when disturbed.
+
 ---
 
 
@@ -49,6 +50,8 @@ Decreasing pressure shifts it toward the side with more gas molecules.
 Example:
 
 Applying high pressure favors the production of ammonia, as fewer gas molecules are formed.<br>
+
+---
 
 <img src="https://raw.githubusercontent.com/Ayush-Kumar-45/Orchids_Ayush_Kumar_1/main/experiment/images/lechtelier%20theory.jpg" alt="Le Chatelier Theory Diagram" width="500"/>
 
