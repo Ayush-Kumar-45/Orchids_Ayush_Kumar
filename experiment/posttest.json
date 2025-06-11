@@ -1,8 +1,8 @@
-  
+ { 
   "version": 2.0,
   "questions": [
     {
-      "question": "For the reaction N2(g) + 3H2(g) ⇌ 2NH3(g) + heat, what effect will increasing the temperature have on the equilibrium?",
+      "question": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g) + heat, what effect will increasing the temperature have on the equilibrium?",
       "answers": {
         "a": "Shift to the left (reactants)",
         "b": "Shift to the right (products)",
@@ -19,16 +19,16 @@
       "difficulty": "beginner"
     },
     {
-      "question": "For the reaction 2SO2(g) + O2(g) ⇌ 2SO3(g), which of the following will increase the yield of SO3?",
+      "question": "For the reaction 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), which of the following will increase the yield of SO₃?",
       "answers": {
         "a": "Decreasing the pressure",
-        "b": "Adding more O2",
-        "c": "Adding more SO3",
+        "b": "Adding more O₂",
+        "c": "Adding more SO₃",
         "d": "Increasing the temperature"
       },
       "explanations": {
         "a": "Incorrect. Decreasing pressure shifts equilibrium toward more gas molecules (reactants).",
-        "b": "Correct. Increasing the concentration of a reactant (O2) will shift the equilibrium towards the product (SO3).",
+        "b": "Correct. Increasing the concentration of a reactant (O₂) will shift the equilibrium towards the product (SO₃).",
         "c": "Incorrect. Adding product shifts equilibrium to the left.",
         "d": "Incorrect. Increasing temperature may not favor product formation if the reaction is exothermic."
       },
