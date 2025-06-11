@@ -1,4 +1,4 @@
- { 
+{
   "version": 2.0,
   "questions": [
     {
@@ -85,6 +85,6 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
-    }
-  ]
+    }
+  ]
 }
