@@ -84,6 +84,7 @@
         "d": "Incorrect. Temperature changes affect the equilibrium constant."
       },
       "correctAnswer": "c",
-    }
+      "difficulty": "beginner"
+    }
   ]
 }
